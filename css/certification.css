@@ -1,0 +1,104 @@
+.cert h1 {
+    font-family: 'Marguerite', cursive;
+    font-size: 50px;
+}
+
+.circ.tertiary {
+    color: #fff;
+}
+
+.circ.tertiary .icon__border {
+    color: #fff;
+}
+
+.certbg {
+    background: url("../images/certbg.jpg");
+    background-size: 100%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.certification {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(5px 5px 5px #222222);
+}
+
+
+article {
+    padding: 0px;
+    margin: 0 0 30px 0px;
+    display: inline-block;
+}
+
+.unit img {
+    display: inline-block;
+}
+
+.unit-body {
+    display: flex;
+    align-items: center;
+}
+
+.unit-body {
+    padding: 30px 10px;
+}
+
+.unit-body p {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+@media (max-width: 991px) {
+    .cert {
+        height: 100%;
+        overflow: auto;
+    }
+
+    .unit-body {
+        text-align: center;
+    }
+
+    .unit-body p {
+        font-size: 18px;
+    }
+
+    .cert h1 {
+        font-family: 'Marguerite', cursive;
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cert h1 {
+        font-family: 'Marguerite', cursive;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .contactbg-mobile {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .certbg {
+        background: url("../images/certbg.jpg");
+        background-size: cover;
+        height: 100vh;
+        background-position-y: bottom;
+    }
+
+    .unit-body p {
+        padding: 0 30px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .cert h1 {
+        font-family: 'Marguerite', cursive;
+        font-size: 50px;
+    }
+}

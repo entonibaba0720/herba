@@ -1,0 +1,79 @@
+.contact {
+    background: url("../images/contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.contact h1 {
+    font-family: 'Marguerite', cursive;
+    color: #88b44e;
+    top: 10%;
+    font-size: 55px;
+}
+
+@media (max-width: 991px) {
+    .contact h1 {
+        font-size: 40px;
+    }
+}
+
+.contact-box {
+    background: #e5f4e3;
+    height: 340px;
+    top: 8%;
+    padding: 10px 0;
+    border-bottom: 20px solid #4d4d4d;
+    box-shadow: 22px 22px 64px 22px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 992px) {}
+
+.contact h2 {
+    padding-left: 40px;
+}
+
+.contact-icon {
+    height: 50px;
+    display: block;
+    margin: 10px 10px;
+}
+
+.contact-box img {
+    display: inline;
+}
+
+.contact-box,
+.contact-box a {
+    font-family: "Baloo Da 2", cursive;
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+.contact-box>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box li {
+    list-style-type: none;
+}
+
+
+.contact-box h2 {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+.ct {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ct a:hover {
+    text-decoration: none;
+    color: #9e9a9a;
+}
