@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;700&display=swap");
 @import "nav.css";
 @import "index.css";
+@import "about.css";
 @import "documents.css";
 @import "certification.css";
 @import "contact.css";
@@ -26,35 +27,4 @@ h1 {
   text-align: center;
   font-size: 36px;
   font-family: "Baloo Da 2", cursive;
-}
-
-
-.about-box {
-  padding: 35px;
-  border: 3px solid #ededed;
-  height: 285px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.about-text {
-  line-height: 1.7;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.about-text p {
-  color: #363636;
-  font-size: 16px;
-  line-height: 1.9;
-}
-
-.about-text {
-  transition: all 0.2s ease-in-out;
-}
-
-.about-text:hover {
-  transform: scale(1.1);
 }
