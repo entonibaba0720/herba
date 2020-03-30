@@ -65,7 +65,9 @@
     color: #4d4d4d;
 }
 
-@media (min-width: 992px) and (orientation: landscape) {
+@media (min-width: 992px) {
+
+
     .contact h1 {
         font-size: 55px;
         margin-top: 50px;
