@@ -102,6 +102,10 @@ article {
         bottom: 0;
     }
 
+    .last-cert {
+        padding-bottom: 150px;
+    }
+
     .unit-body p {
         padding: 0 30px;
     }
