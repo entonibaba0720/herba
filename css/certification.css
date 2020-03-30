@@ -85,9 +85,10 @@ article {
 @media (min-width:992px) {
     .certbg {
         background: url("../images/certbg.jpg");
-        background-size: cover;
-        height: 100vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
         background-position-y: bottom;
+        height: 100vh;
     }
 
     .unit-body p {
