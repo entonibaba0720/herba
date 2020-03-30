@@ -49,7 +49,14 @@ article {
     font-size: 20px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) and (orientation: landscape) {
+    .certbg {
+        background: url("../images/certbg.jpg");
+        background-size: 100%;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+    }
+
     .cert {
         height: 100%;
         overflow: auto;
