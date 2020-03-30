@@ -4,6 +4,7 @@
 @import "nav.css";
 @import "index.css";
 @import "about.css";
+@import "products.css";
 @import "documents.css";
 @import "certification.css";
 @import "contact.css";
@@ -37,4 +38,21 @@ h1 {
     font-size: 36px;
     font-family: "Baloo Da 2", cursive;
   }
+}
+
+.grey-bg {
+  background-color: rgb(236, 236, 236);
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.img-thumbnail {
+  text-align: center;
+  margin: 20px;
+}
+
+.img-thumbnail img {
+  margin: 20px 0;
 }
