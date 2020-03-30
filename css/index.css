@@ -126,7 +126,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 991px) {
     .hi_hero_content {
         top: 7%;
         margin-top: 20px;
@@ -145,7 +145,12 @@
 
 }
 
-@media (min-width: 300px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) and (orientation: landscape) {
+
+    .hero {
+        min-height: 640px;
+        width: auto;
+    }
 
     .hero-logo {
         height: 100px;
