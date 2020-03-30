@@ -11,28 +11,27 @@
     font-family: 'Marguerite', cursive;
     color: #88b44e;
     top: 10%;
-    font-size: 55px;
-}
-
-@media (max-width: 991px) {
-    .contact h1 {
-        font-size: 40px;
-    }
+    font-size: 30px;
 }
 
 .contact-box {
     background: #e5f4e3;
-    height: 340px;
+    min-height: 340px;
     top: 8%;
     padding: 10px 0;
     border-bottom: 20px solid #4d4d4d;
     box-shadow: 22px 22px 64px 22px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 992px) {}
+.contact-box ul {
+    padding: 0 5px;
+    width: 100%;
+}
 
-.contact h2 {
-    padding-left: 40px;
+.contact-box ul li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 .contact-icon {
@@ -41,8 +40,9 @@
     margin: 10px 10px;
 }
 
-.contact-box img {
-    display: inline;
+.contact-box>div {
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-box,
@@ -52,15 +52,13 @@
     color: #4d4d4d;
 }
 
-.contact-box>div {
-    display: flex;
-    flex-direction: column;
+.contact-box img {
+    display: inline;
 }
 
 .contact-box li {
     list-style-type: none;
 }
-
 
 .contact-box h2 {
     text-decoration: underline;
@@ -68,12 +66,27 @@
     color: #4d4d4d;
 }
 
-.ct {
-    height: 100vh;
-    overflow: hidden;
-}
+@media (min-width: 992px) {
+    .contact h1 {
+        font-size: 55px;
+        margin-top: 50px;
+    }
 
-.ct a:hover {
-    text-decoration: none;
-    color: #9e9a9a;
+    .contact h2 {
+        padding-left: 40px;
+    }
+
+    .contact-box ul {
+        padding-left: 40px;
+    }
+
+    .ct {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .ct a:hover {
+        text-decoration: none;
+        color: #9e9a9a;
+    }
 }
