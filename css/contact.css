@@ -67,14 +67,6 @@
 
 @media (min-width: 992px) {
 
-    .contact {
-        background: url("../images/contact.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
-
     .contact h1 {
         font-size: 55px;
         margin-top: 50px;
