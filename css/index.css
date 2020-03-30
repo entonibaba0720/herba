@@ -189,7 +189,7 @@
     }
 }
 
-@media (min-width: 300px) and (max-width: 575px) {
+@media (max-width: 575px) {
 
     .hero-logo {
         height: 100px;
