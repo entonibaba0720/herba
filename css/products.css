@@ -85,6 +85,10 @@
     margin: 20px 0;
 }
 
+.category-body {
+    text-align: center;
+}
+
 .category-body h5 {
     text-transform: uppercase;
     font-weight: 600;
