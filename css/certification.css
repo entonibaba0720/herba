@@ -16,6 +16,8 @@
     background-size: 100%;
     background-position-y: bottom;
     background-repeat: no-repeat;
+    height: 100%;
+    bottom: 0;
 }
 
 .certification {
@@ -55,6 +57,7 @@ article {
         background-size: 100%;
         background-position-y: bottom;
         background-repeat: no-repeat;
+        bottom: 0;
     }
 
     .cert {
