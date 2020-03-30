@@ -20,6 +20,12 @@
         background-size: cover;
         height: 100%;
     }
+
+    .hi_hero_content {
+        margin-top: 150px;
+        padding: 25px;
+        background: rgba(255, 255, 255, .5);
+    }
 }
 
 .hero-logo {
