@@ -10,7 +10,13 @@
     font-family: 'Marguerite', cursive;
     color: #88b44e;
     top: 10%;
-    font-size: 30px;
+    font-size: 36px;
+}
+
+@media (max-width: 575px) {
+    .contact h1 {
+        font-size: 30px;
+    }
 }
 
 .contact-box {
@@ -68,8 +74,8 @@
 @media (min-width: 992px) {
 
     .contact h1 {
-        font-size: 55px;
-        margin-top: 50px;
+        font-size: 48px;
+        margin-top: 30px;
     }
 
     .contact h2 {
@@ -87,5 +93,11 @@
     .ct a:hover {
         text-decoration: none;
         color: #9e9a9a;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .contact h1 {
+        font-size: 40px;
     }
 }
