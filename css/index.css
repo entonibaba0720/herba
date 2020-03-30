@@ -13,7 +13,7 @@
 }
 
 @media (orientation: landscape) {
-    .contact {
+    .hero {
         background-image: url(../images/header1920x1080.jpg);
         background-position: center center;
         background-repeat: no-repeat;
@@ -21,7 +21,6 @@
         height: 100%;
     }
 }
-
 
 .hero-logo {
     height: 150px;
