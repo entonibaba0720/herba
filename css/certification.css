@@ -96,12 +96,12 @@ article {
         background-repeat: no-repeat;
         background-position-y: bottom;
         height: 100%;
+        bottom: 0;
     }
 
     .unit-body p {
         padding: 0 30px;
     }
-
 }
 
 @media (min-width: 1200px) {
