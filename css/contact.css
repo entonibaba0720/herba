@@ -1,9 +1,23 @@
+.ct {
+    height: auto;
+}
+
 .contact {
     background: url("../images/contact.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+@media (orientation: landscape) {
+    .contact {
+        background: url("../images/contact.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
 }
 
 .contact h1 {
