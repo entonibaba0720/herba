@@ -11,15 +11,6 @@
     color: #fff;
 }
 
-.certbg {
-    background: url("../images/certbg.jpg");
-    background-size: 100%;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
-    height: 100%;
-    bottom: 0;
-}
-
 .certification {
     width: 100px;
     height: 100px;
@@ -52,14 +43,6 @@ article {
 }
 
 @media (max-width: 991px) and (orientation: landscape) {
-    .certbg {
-        background: url("../images/certbg.jpg");
-        background-size: 100%;
-        background-position-y: bottom;
-        background-repeat: no-repeat;
-        bottom: 0;
-    }
-
     .cert {
         height: 100%;
         overflow: auto;
@@ -93,14 +76,6 @@ article {
 }
 
 @media (min-width:992px) {
-    .certbg {
-        background: url("../images/certbg.jpg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position-y: bottom;
-        height: 100%;
-        bottom: 0;
-    }
 
     .last-cert {
         padding-bottom: 150px;
