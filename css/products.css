@@ -2,13 +2,15 @@
     background-color: #F5F5F5;
     position: relative;
     padding: 0 0 40px 0;
-    margin: 0 5px;
+    height: 100%;
 }
+
 
 .grey-prod-bg {
     background-color: #F5F5F5;
     position: relative;
     margin: 0 5px;
+    height: 100%;
 }
 
 .hero-img {
@@ -131,7 +133,7 @@
     color: #88b44e;
 }
 
-.more_btn:hover:before {
+.back_btn:hover:before {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -ms-transform: scale(0);
@@ -156,6 +158,12 @@
 
 .category-body {
     text-align: center;
+    padding: 0;
+}
+
+.col-12 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .category-body h5 {
